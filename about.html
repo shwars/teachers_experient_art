@@ -53,7 +53,7 @@
         <ul>
           <li><a href="index.html">Домой</a></li>
           <li><a href="about.html">О коллекции</a></li>
-          <!-- li><a href="contact.html">Контакт</a></li -->
+          <li><a href="contact.html">Контакт</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -63,70 +63,30 @@
   <main id="main" data-aos="fade" data-aos-delay="1500">
 
     <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center" style="padding-bottom: 0pt;">
+    <div class="page-header d-flex align-items-center">
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
             <h2>Нейроучителя</h2>
-            <p>Коллекция нейронных учителей, сгенерированная с помощью нейросети Stable Diffusion. Автор: <a href="http://soshnikov.com">Дмитрий Сошников</a> (<a href="http://t.me/shwarsico">телеграм</a>)</p>
+            <p>
+              Коллекция "Нейроучителя" создавалась ко дню учителя. Основной целью было изображение учителей 
+              в типовом контексте их работы, варьируя при этом их пол, возраст и используемую технику исполнения 
+              работы. К запросу добавлялись уточнения, делающие учителя узнаваемым, например, учитель физкультуры 
+              изображался с футбольным мячом. Для генерации использовалась нейросеть Stable Diffusion.
+            </p>
+            <p>
+              Подробнее про нейрогенеративное искусство вы можете прочитать в заметке автора
+              <a href="https://soshnikov.com/scienceart/neural-generative-models-and-future-of-art-ru/">Нейрогенеративные модели и их влияние на будущее искусства</a>.
+            </p>
+            <p>
+              <a href="https://soshnikov.com">Дмитрий Сошников</a> является ведущим экспертом по искусственному интеллекту и машинному обучению, ранее проработавшим 16 лет в Microsoft, доцентом МАИ и НИУ ВШЭ.
+              Дмитрий - энтузиаст нейросетевого искусства, сотрудничает по этому направлению с <a href="https://design.hse.ru/">школой дизайна НИУ ВШЭ</a>.
+            </p>
+            <p>Для связи - подпишитесь на <a href="http://t.me/shwarsico">телеграм-канал</a>.</p>
           </div>
         </div>
       </div>
     </div><!-- End Page Header -->
-
-    <div class="align-items-center text-center">
-      <form>
-        <select id="age" onchange="update()">
-          <option value=""></option>
-          <option value="young">молодой/ая</option>
-          <option value="old">пожилой/ая</option>
-        </select>
-        <select id="sex" onchange="update()">
-          <option value=""></option>
-          <option value="male">мужчина</option>
-          <option value="female">женщина</option>
-        </select>
-        <select id="subj" onchange="update()">
-          <option value=""></option>
-          <option value="mathematics">математика</option>
-          <option value="computer_science">информатика</option>
-          <option value="physics">физика</option>
-          <option value="geometry">геометрия</option>
-          <option value="literature">литература</option>
-          <option value="chemistry">химия</option>
-          <option value="geography">география</option>
-          <option value="astronomy">астрономия</option>
-          <option value="physical_training">физкультура</option>
-        </select>
-        <select id="style" onchange="update()">
-          <option value=""></option>
-          <option value="watercolor_painting">акварель</option>
-          <option value="oil_painting">масло</option>
-          <option value="pastel_drawing">пастель</option>
-          <option value="pencil">карандаш</option>
-        </select>
-      </form>
-
-    </div>
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container-fluid">
-
-        <div id="cont" class="row gy-4 justify-content-center">
-          <div id="templ" class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <!-- a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a -->
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-        </div>
-      </div>
-    </section><!-- End Gallery Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

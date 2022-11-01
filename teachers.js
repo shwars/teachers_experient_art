@@ -24,7 +24,7 @@ function draw(l)
             cl.getElementsByClassName('img-fluid')[0].src=lnk;
             cl.getElementsByClassName('preview-link')[0].href=lnk;
             c.appendChild(cl);
-            if (j>99) break;
+            if (j>33) break;
         }
     }
 }
